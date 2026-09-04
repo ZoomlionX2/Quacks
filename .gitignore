@@ -24,3 +24,8 @@ __pycache__/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# JetBrains / PyCharm settings
+.idea/
+*.iml
+*.iws
