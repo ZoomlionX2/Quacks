@@ -48,8 +48,7 @@ class ExplosionProbabilityToleranceStrat(StrEnum):
     MEDIUM = "medium"       # Continue even if <= 60% probability to explode
     LOW = "low"             # Continue even if <= 40 % probability to explode
     VERY_LOW = "very low"   # Continue even if <= 20% probability to explode
-    NEVER = "never"         # Continue only if 0% probab3
-    # ility to explode
+    NEVER = "never"         # Continue only if 0% probability to explode
     RANDOM = "random"       # Randomly decide whether to continue
 
 class ExplosionRoundStrat(StrEnum):

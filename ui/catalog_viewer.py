@@ -8,7 +8,7 @@ def prompt_display_color_strats() -> str:
     print('-' * 31)
     for index, color_strategy in enumerate(COLOR_STRATS):
         colors = ', '.join(color.name for color in color_strategy)
-        print(f"{index:<25}{colors}")
+        print(f"{index + 1:<25}{colors}")
 
     print('\nPlease return to the main menu to proceed (1):\n')
     print('1. Return to main menu')
